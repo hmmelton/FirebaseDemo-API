@@ -14,5 +14,5 @@ func main() {
   routes.SetupRoutes(router)
 
   // Start the server and listen for incoming requests
-  router.Run(":443")
+  router.Run(":3000")
 }
