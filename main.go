@@ -2,8 +2,6 @@ package main
 
 // Import the necessary modules and dependencies
 import (
-	"fmt"
-	"os"
   "github.com/gin-gonic/gin"
   "github.com/hmmelton/firebasedemoapi/routes"
 )
