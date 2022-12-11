@@ -16,5 +16,5 @@ func main() {
   routes.SetupRoutes(router)
 
   // Start the server and listen for incoming requests
-  router.Run(fmt.Sprintf(":%s", os.Getenv("PORT")))
+  router.Run(":443")
 }

@@ -6,7 +6,7 @@ files:
 hooks:
   ApplicationStart:
     - location: scripts/application_start.sh
-      timeout: 300
+      timeout: 120
       runas: ec2-user
   BeforeInstall:
     - location: scripts/before_install.sh
